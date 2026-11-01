@@ -1,0 +1,16 @@
+id,question,in_docs,expected,expected_page
+1,What are the three pillars of a prompt?,yes,Instruction; Context; Constraints,19
+2,Why is the dot product divided by sqrt(d_k) in attention?,yes,Prevents dot products from growing too large (scaled dot-product attention),12
+3,How much energy was GPT-3 training estimated to consume?,yes,~1287 MWh,25
+4,Which problem does LSTM solve and which three gates does it use?,yes,Vanishing gradient; forget input output gates,9;10
+5,What are the four stages of the GPT training pipeline?,yes,Pre-training; fine-tuning; instruction tuning; RLHF,17;18
+6,Explain the steps of RLHF.,yes,Generate responses; humans rank; train reward model; optimize with PPO,18
+7,What does temperature = 0 mean?,yes,Deterministic greedy decoding; always highest-probability token,6
+8,How much text data was GPT-3 trained on?,yes,~570 GB filtered text,14
+9,What are the six steps of how RAG works?,yes,Ingestion; indexing; query; retrieval; augmentation; generation,28
+10,What is the USB-C analogy in MCP?,yes,MCP is a standard connection between AI models and external tools like USB-C,29
+11,Name two limitations of diffusion-based image generation.,yes,Hands/fingers; text rendering; bias; cost,23
+12,What mitigations does the handbook suggest for hallucination?,yes,RAG; human verification; confidence calibration,25
+13,Who is the CEO of OpenAI?,no,Not found in the notes,
+14,What is LoRA fine-tuning?,no,Not found in the notes,
+15,How does BERT's next sentence prediction work?,no,Not found in the notes,
